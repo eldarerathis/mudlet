@@ -1211,7 +1211,6 @@ void Host::readPackageConfig( QString luaConfig, QString & packageName )
         lua_pop(L, -1);
         lua_close(L);
     }
->>>>>>> 8a4797fbcadc586b0580ec2d67886715f04aea0c
 }
 
 #endif
